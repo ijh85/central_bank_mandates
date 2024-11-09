@@ -13,18 +13,6 @@ This code reproduces the following results:
 
 ## Requirements
 
-### Python Dependencies
-python
-matplotlib>=3.0.0
-nltk>=3.6.0
-numpy>=1.19.0
-pandas>=1.2.0
-seaborn>=0.11.0
-shap>=0.40.0
-sklearn>=0.24.0
-statsmodels>=0.12.0
-wordcloud>=1.8.0
-
 ### Data
 The following data is located in the `data/` directory:
 - `data_60_21.csv`: Full sample (1960-2021)
@@ -60,14 +48,17 @@ Results are exported to following directories:
 
 1. Install required Python packages:
 
-bash
+```bash
 pip install -r requirements.txt
+```
 
 2. Put input data in `data/` directory.
 
 3. Run scripts:
 
+```
 bash
 python scripts/plots.py
 python scripts/regressions.py
+```
 
